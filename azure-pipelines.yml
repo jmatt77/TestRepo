@@ -1,7 +1,10 @@
-yaml 
-trigger: 
+ trigger: 
 - main 
-pool: vmImage: 'windows-latest'
+
+pool: 
+  vmImage: 'windows-latest'
+
 steps: 
-- script: echo Hello, Ani's Helping!
+-script: echo 'Hello, Ani's Helping!'
+
 displayName: 'Test Run'
