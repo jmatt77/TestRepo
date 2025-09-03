@@ -1,10 +1,10 @@
- trigger: 
+trigger: 
 - main 
 
 pool: 
   vmImage: 'windows-latest'
 
 steps: 
--script: echo 'Hello, Ani's Helping!'
 
-displayName: 'Test Run'
+- script: echo 'Hello, Ani's Helping!'
+  displayName: 'Test Run'
